@@ -1,4 +1,4 @@
-# 💣 Self-Destructing Chat
+#  Self-Destructing Chat
 
 A real-time, ephemeral chat application where rooms and messages exist only in memory and self-destruct after a set time.
 
@@ -7,11 +7,11 @@ A real-time, ephemeral chat application where rooms and messages exist only in m
 - **Frontend**: Next.js (App Router), React, Tailwind CSS
 - **Backend**: custom Express server, Node.js
 - **Real-time**: Socket.io
-- **Styling**: Tailwind CSS (Monochromatic/Brutalist theme)
+- **Styling**: Tailwind CSS 
 
 ## 🚀 How It Works
 
-1.  **In-Memory Storage**: The server stores all room data in a Javascript object (`rooms = {}`). No database (MySQL/Redis) is used.
+1.  **In-Memory Storage**: The server stores all room data in a Javascript object (`rooms = {}`). No database (MySQL/POSTgress) is used.
 2.  **Socket.io**: Handles real-time events for joining rooms and sending messages.
 3.  **Self-Destruction**:
     -   When a room is created, a `setTimeout` is started on the server.

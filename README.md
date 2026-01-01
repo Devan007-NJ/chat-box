@@ -1,4 +1,4 @@
-#  Self-Destructing Chat
+# Self-Destructing Chat
 
 A real-time, ephemeral chat application where rooms and messages exist only in memory and self-destruct after a set time.
 
